@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Reunião de Pais</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="convite">
+        <div class="container">
+            <div class="canto-inferior-esquerdo"></div>
+            <div class="canto-inferior-direito"></div>
+
+            <h1>Reunião de Pais</h1>
+            <div class="agendamento">
+                <p>Agendamento Digital</p>
+
+                <p id="turma">TURMA 3ºC</p>
+            </div>
+
+            <div class="mensagem">
+                <p>Vocês estão convidados para a reunião de pais que será realizada:</p>
+                <div class="information">
+                    <div class="detalhes">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Colégio<br>CRESCER</p>
+                        </div>
+
+                        <div>
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <p id="dia">06/12</p>
+                        </div>
+
+                        <div>
+                            <i class="fa-regular fa-clock"></i>
+                            <p id="hora">DAS 07h10<br>DAS 11h25</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    Caso a família deseje conversar com o(a) professor(a), pedimos a gentileza de agendar um horário. Para facilitar sua experiência estamos realizando o agendamento da reunião presencial via QR Code. Ao clicar ou escanear você poderá escolher o professor e o horário disponível.
+                </p>
+
+                <div class="qrcode-container">
+                    <a class="qrcode-link" href="" id="link">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="qrcode"></div>
+                        <div class="seta-container">
+                            <div class="seta-esquerda">
+                            </div>
+                            <p>Clique aqui e agende seu horário</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="professores-container">
+                    <div class="professor-container">
+                        <a class="professor-link"></a>
+                    </div>
+                </div>
+
+                <div class="qrcode-professores-container">
+                    <div class="qrcode-professor-container">
+                        <a class="qrcode-professor-link">
+                            <div class="qrcode-professor"></div>
+                            <p class="qrcode-professor-nome">Samuel Duenha</p>
+                        </a>
+                    </div>
+                </div>
+
+                <p>
+                    Lembramos que neste dia <b>não haverá aula</b>, conforme calendário escolar, uma vez que toda equipe de professores estará focada no atendimento às famílias.👨‍👩‍👦
+                </p>
+
+                <p class="extra">
+                    ⏳Para alunos do Período Integral, haverá programação recreativa no período da Manhã e Tarde.
+                </p>
+
+                <p>
+                    ⚠️ Caso encontre dificuldades no agendamento nossa secretaria está à disposição para ajudá-los através do telefone.
+                </p>
+
+                <div class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>
+                        19 3269-3279
+                    </p>
+
+                    <i class="fa-solid fa-envelope"></i>
+                    <p id="email">
+                        dayane@crescercampinas.com.br
+                    </p>
+                </div>
+
+                <p>
+                    <b class="online">
+                        * As reuniões não serão feitas de forma on-line, as mesmas serão 100% presenciais
+                    </b>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
